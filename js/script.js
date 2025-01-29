@@ -12,7 +12,7 @@ closeModalBtn.addEventListener("click", () => {
 });
 
 productForm.addEventListener("submit", (e) => {
-    e.preventDefault(); // Sprečava podrazumevano ponašanje
+    e.preventDefault();
     const naziv = document.getElementById("naziv").value;
     const kategorija = document.getElementById("kategorija").value;
     const cena = document.getElementById("cena").value;
