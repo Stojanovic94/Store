@@ -24,7 +24,7 @@ productForm.addEventListener("submit", (e) => {
     })
     .then((response) => response.text())
     .then((data) => {
-        alert(data); // Prikazuje poruku iz `add_product.php`
+        alert(data);
         modal.style.display = "none";
         location.reload();
     });
